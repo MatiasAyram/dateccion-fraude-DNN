@@ -16,11 +16,11 @@ En el notebook se realiza el siguiente flujo de trabajo:
 
 ## Instalación
 para clonar el repositorio y preparar el entorno puede ejecutar en la consola:
-
+```bash
 git clone https://github.com/MatiasAyram/dateccion-fraude-DNN.git
 cd dateccion-fraude-DNN
 pip install -r requirements.txt
-
+```
 (El código fue desarrollado en un entorno virtual de Anaconda Navigator (Python 3.10).)
 
 # Conjunto de datos
