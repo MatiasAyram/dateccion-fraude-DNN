@@ -3,7 +3,7 @@
 Este proyecto implementa una red neuronal profunda (DNN) para detectar transacciones fraudulentas utilizando el dataset `creditcard.csv`.  
 Es un ejemplo de cómo manejar un problema de clasificación con un conjunto de datos muy desbalanceado con técnicas de machine y deep learning.
 
-# Descripción del flujo de trabajo
+## Descripción del flujo de trabajo
 En el notebook se realiza el siguiente flujo de trabajo:
 1. Carga y análisis exploratorio del dataset con 28 características.  
 2. Evaluación de la importancia de las variables.  
@@ -14,14 +14,14 @@ En el notebook se realiza el siguiente flujo de trabajo:
 7. Evaluación con métricas como **F1-score**, matriz de confusión y `classification_report`.  
 8. Optimización del umbral de decisión (**threshold**) para mejorar el rendimiento.
 
-# Instalacion
+## Instalación
 para clonar el repositorio y preparar el entorno puede ejecutar en la consola:
 
 git clone https://github.com/MatiasAyram/dateccion-fraude-DNN.git
 cd dateccion-fraude-DNN
 pip install -r requirements.txt
 
-(en el caso del codigo publicado fue usado un entorno virtual de Anaconda navigator(Python 3.10))
+(El código fue desarrollado en un entorno virtual de Anaconda Navigator (Python 3.10).)
 
 # Conjunto de datos
 para descargar el conjunto de datos puede ir al siguente link y descargarlo de forma segura:
@@ -33,6 +33,7 @@ El dataset contiene transacciones realizadas con tarjetas de crédito europeas e
 luego de varias pruebas (con diferentes escaladores, semillas, selección de variablesy optimización de thresholds) se llego a los siguente valores de clasificacion:
 
 Reporte de clasificación:(threshold=0.8899999999999996)
+```text
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00     56864
@@ -41,7 +42,7 @@ Reporte de clasificación:(threshold=0.8899999999999996)
     accuracy                           1.00     56962
    macro avg       0.79      0.93      0.85     56962
 weighted avg       1.00      1.00      1.00     56962
-
+```
 A pesar de aplicar SMOTE, el modelo presenta desafíos al clasificar correctamente la clase 1, aunque logra buenos valores relativos dada la alta desproporción de clases en el conjunto original.
 
 # License
