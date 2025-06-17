@@ -49,6 +49,9 @@ A pesar de aplicar SMOTE, el modelo presenta desafíos al clasificar correctamen
 
 ## License
  este proyecto esta licenciado bajo la licencia MIT License
+ 
+ ## 👨‍💻 Autor
+Proyecto realizado por [Matías Ayram](https://github.com/MatiasAyram) como parte de portfolio de proyectos de Data Science / Machine Learning.
 
 ---
 
