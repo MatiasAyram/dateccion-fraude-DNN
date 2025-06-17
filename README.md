@@ -25,7 +25,9 @@ pip install -r requirements.txt
 
 # Conjunto de datos
 para descargar el conjunto de datos puede ir al siguente link y descargarlo de forma segura:
+```text
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+```
 El dataset contiene transacciones realizadas con tarjetas de crédito europeas en septiembre de 2013, y ha sido preprocesado para preservar la privacidad (mediante PCA en la mayoría de los atributos)
 (El archivo creditcard.csv no se incluye en este repositorio debido a las limitaciones de tamaño de archivo en GitHub (100 MB))
 
